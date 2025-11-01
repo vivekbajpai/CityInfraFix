@@ -1,7 +1,5 @@
 package com.ibm.infrafix.model;
 
-import org.checkerframework.common.aliasing.qual.Unique;
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,8 +14,6 @@ public class Citizen {
 Long id;
 String name;
 String address;
-
-@Unique
 String email;
 
 
